@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",                // or esnext
+      "module": "ES2022",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,           // Prevents type-checking of declaration files
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "lib": ["esnext"]
+    },
+    "include": [
+      "*.ts",
+    ],
+    "exclude": ["node_modules"]
+  }
+  
